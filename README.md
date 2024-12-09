@@ -1,4 +1,5 @@
 Blog Management System
+
 A full-stack web application for managing blogs, comments, tags, and user interactions. Includes both user and admin functionalities with secure authentication and authorization.
 
 Features
@@ -29,33 +30,54 @@ Delete comments on blogs.
 API Routes
 
 1. Admin Routes
+
 GET /admin/blogs - Fetch all blogs.
+
 GET /admin/users - Fetch all users.
+
 GET /admin/blog/:id - Fetch a blog by ID.
+
 GET /admin/:tagname - Fetch blogs by tag.
+
 DELETE /admin/blog/:blogid/delete/:id - Delete a comment from a blog.
 
-3. Blog Routes
+
+4. Blog Routes
+   
 POST /blogs/create - Create a new blog.
+
 GET /blogs/user - Fetch all blogs created by the logged-in user.
+
 GET /blogs/:id - Fetch a blog by ID.
+
 PUT /blogs/edit/:id - Edit a blog.
+
 DELETE /blogs/delete/:id - Delete a blog.
+
 POST /blogs/:id/like - Like or unlike a blog.
 
-5. Comment Routes
+6. Comment Routes
+   
 POST /comments/:blogid/create - Add a comment to a blog.
+
 GET /comments/:blogid - Fetch all comments for a blog.
+
 DELETE /comments/:blogid/delete/:id - Delete a comment.
 
-7. Tag Routes
+8. Tag Routes
+   
 POST /tags/:blogid/create - Create a tag and associate it with a blog.
+
 GET /tags/alltags - Fetch all tags.
+
 GET /tags/:tagname - Fetch blogs by tag.
+
 DELETE /tags/:blogid/:tagid - Remove a tag from a blog.
 
-9. User Routes
+10. User Routes
+    
 POST /users/create - Register a new user.
+
 POST /users/login - Login a user and generate a token.
 
 Technologies Used
