@@ -42,7 +42,7 @@ GET /admin/:tagname - Fetch blogs by tag.
 DELETE /admin/blog/:blogid/delete/:id - Delete a comment from a blog.
 
 
-4. Blog Routes
+2. Blog Routes
    
 POST /blogs/create - Create a new blog.
 
@@ -56,7 +56,7 @@ DELETE /blogs/delete/:id - Delete a blog.
 
 POST /blogs/:id/like - Like or unlike a blog.
 
-6. Comment Routes
+3. Comment Routes
    
 POST /comments/:blogid/create - Add a comment to a blog.
 
@@ -64,7 +64,7 @@ GET /comments/:blogid - Fetch all comments for a blog.
 
 DELETE /comments/:blogid/delete/:id - Delete a comment.
 
-8. Tag Routes
+4. Tag Routes
    
 POST /tags/:blogid/create - Create a tag and associate it with a blog.
 
@@ -74,7 +74,7 @@ GET /tags/:tagname - Fetch blogs by tag.
 
 DELETE /tags/:blogid/:tagid - Remove a tag from a blog.
 
-10. User Routes
+5. User Routes
     
 POST /users/create - Register a new user.
 
