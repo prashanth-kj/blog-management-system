@@ -83,9 +83,13 @@ POST /users/login - Login a user and generate a token.
 Technologies Used
 
 Backend: Node.js, Express.js
+
 Database: MongoDB
+
 Authentication: JWT
+
 Middleware: Custom validation and authorization guards
+
 postman documentation : https://documenter.getpostman.com/view/27740952/2sAYBd88LQ
 
 Project Workflow
